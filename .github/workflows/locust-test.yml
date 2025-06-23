@@ -5,8 +5,8 @@ on:
         branches:
             - main
     workflow_dispatch:
-    schedule:
-        - cron: "0 2 * * *" #everyday at 2 am
+    # schedule:
+    #     - cron: "0 2 * * *" #everyday at 2 am
 
 jobs:
     stress-test:
